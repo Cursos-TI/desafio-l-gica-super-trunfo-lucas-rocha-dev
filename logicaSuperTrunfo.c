@@ -1,5 +1,4 @@
 #include <stdio.h>
-
     /*
     * Desafio Super Trunfo - Países
     * Tema 2 - Comparação das Cartas
@@ -20,7 +19,6 @@ int main() {
     float pibPerCapita1, pibPerCapita2;
     float superPoder1, superPoder2;    
     char *cidadeVencedora;
-
 
     // Cadastro das Cartas:
     printf("Digite o Estado da primeira carta:\n");
@@ -59,7 +57,6 @@ int main() {
     //Calcula o PIB Per Capita
     pibPerCapita1 = pib1 / populacao1;
     pibPerCapita2 = pib2 / populacao2;
-
 
     // Comparação de Cartas:
     if (populacao1 > populacao2){
